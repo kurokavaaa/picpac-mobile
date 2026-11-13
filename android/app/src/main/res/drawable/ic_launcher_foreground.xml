@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Нейтральная иконка приложения: раскрытая фотокнига с фото на правой странице.
+  Нарисована с нуля в цветах приложения, без логотипа PicPac (чужой товарный знак).
+  Всё помещается в центральный круг 66dp — Android обрезает края иконки по форме лаунчера.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Левая страница -->
+    <path
+        android:fillColor="#C25E39"
+        android:pathData="M30,38 Q42,34 54,38 L54,74 Q42,70 30,74 Z" />
+    <!-- Правая страница -->
+    <path
+        android:fillColor="#D2925C"
+        android:pathData="M54,38 Q66,34 78,38 L78,74 Q66,70 54,74 Z" />
+    <!-- «Строки текста» на левой странице -->
+    <path
+        android:fillColor="#F6E3D5"
+        android:pathData="M35,45 h14 v2 h-14z M35,51 h14 v2 h-14z M35,57 h10 v2 h-10z" />
+    <!-- Фото на правой странице -->
+    <path
+        android:fillColor="#FFF4E6"
+        android:pathData="M59,44 h14 v13 h-14z" />
+    <!-- Горы на фото -->
+    <path
+        android:fillColor="#52645D"
+        android:pathData="M59,57 L64,51 L67,54 L70,50 L73,57 Z" />
+    <!-- Солнце -->
+    <path
+        android:fillColor="#C25E39"
+        android:pathData="M68.4,47.5 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0" />
+</vector>

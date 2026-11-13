@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cream">#FAF6ED</color>
+    <color name="icon_bg">#FDF7F2</color>
+    <color name="terracotta">#C25E39</color>
+
+    <!-- Тема окна до того, как Compose нарисует первый кадр: кремовый фон без мигания. -->
+    <style name="Theme.PicPac" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/cream</item>
+    </style>
+</resources>
